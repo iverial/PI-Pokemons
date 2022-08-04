@@ -1,0 +1,35 @@
+.allli{
+  position: absolute;
+  width: 60%;
+  margin: auto;
+  top: 45px;
+}
+
+.searchcontainer{
+  position: absolute;
+  top: 20px;
+  margin-left: 50%;
+  width: auto;
+}
+
+.linkroute{
+  display: inline;
+  font-size: 28px;
+  font-weight: 400;
+  color: white;
+  background-color: #000000;
+  padding: 2px 16px 8px;
+  border: 4.4px solid black;
+  border-radius: 32px;
+  text-decoration: none;
+  text-align: right;     
+  margin-left: 35px;
+}
+.linkroute:active {
+  border-color: white;
+  color: #000000;
+}
+
+
+
+

@@ -1,0 +1,33 @@
+.container {
+    background-color: #000000ab;;
+    height: 450px;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    border: 10px solid black;
+
+}
+
+.container:hover{
+    transform: scale(1.1);
+    border: 10px solid green;
+    background-color: greenyellow;
+}
+
+ .img {
+    max-width: 200px;
+    max-height: 200px;
+    min-width: 200px;
+    min-height: 200px;
+    margin: auto;
+    padding-top: 5px;
+    display: block;
+    position: relative;
+    z-index: 10;
+}
+
+.Tipos{
+    color: white;
+}

@@ -1,0 +1,173 @@
+   .input{
+    outline: none;
+    margin-left: 0%;
+    width: 30%;
+    text-align: center;
+    height: 20px;
+    background-color: white;
+    border-color: black;
+  }
+  
+  .form {
+    padding-top: 20px;
+  }
+  
+  .infoform{
+    position: relative;
+    width: 50%;
+    height: 700px;
+    padding: 40px;  
+    margin: 0px;
+    background:#000000ab;
+    margin-left: auto;
+    margin-right:auto;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.438);
+    font-family: 'Exo 2', sans-serif;
+    margin-bottom: 30px;
+    z-index: 1;
+  }
+  
+  .title {
+    color: white;
+    justify-content: center;
+    display: flex;
+    
+    margin-top: -32px;
+  }
+  
+  .twoTypes { 
+    color: red;
+  }
+  
+  
+  .typess {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 5px;
+  }
+  
+  .Typ {
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    background-color: black;
+    padding: 9px;
+    border: solid 1px;
+    border-color: black;
+    border-radius: 5px;
+    margin-left: 20px;
+  } 
+  
+  .nameType { 
+    margin-right: 12px;
+    font-size: 20px;
+    margin-left: 12px;
+    border-radius: 5px;
+    color: white;
+  }
+  
+  
+  
+  label {
+    margin: 11px;
+    display: block;
+    padding-left: 15px;
+    text-indent: -15px;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+
+  }
+  
+  .BTNS {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    padding-bottom: 50px;
+
+
+  }
+  .home{
+    display: inline;
+    font-size: 28px;
+    font-weight: 400;
+    color: white;
+    background-color: #000000;
+    padding: 2px 16px 8px;
+    border: 4.4px solid black;
+    border-radius: 32px;
+    text-decoration: none;
+    text-align: right;     
+    margin-left: 35px;
+  }
+  .home:active {
+    border-color: white;
+    color: #000000;
+  }
+  
+  .home::selection {
+    background-color: var(--neon-border-color);
+    color: var(--neon-text-color);
+  }
+  
+  .home:focus {
+    outline: none;
+  }
+
+  .btncreate{
+    display: inline;
+    font-size: 28px;
+    font-weight: 400;
+    color: white;
+    background-color: #000000;
+    padding: 2px 16px 8px;
+    border: 4.4px solid black;
+    border-radius: 32px;
+    text-decoration: none;
+    text-align: right;     
+    margin-left: 35px;
+  }
+  .btncreate:active {
+    border-color: white;
+    color: #000000;
+  }
+  
+  .btncreate::selection {
+    background-color: var(--neon-border-color);
+    color: var(--neon-text-color);
+  }
+  
+  .btncreate:focus {
+    outline: none;
+  }
+  
+  .btncreate span {
+    position: absolute;
+    display: flex;
+  }
+  
+  .selectType {
+    position: relative;
+    text-align: center;
+    color: red;
+  }
+
+  .errors{
+    color: red;
+  }
+
+  .btnDelete{
+    display: inline;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    background-color: #000000;
+    padding: 2px 16px 8px;
+    border: 4.4px solid black;
+    border-radius: 32px;
+    text-decoration: none;
+    text-align: right;     
+    margin-left: 35px;
+  }
