@@ -105,3 +105,9 @@ dist
 
 # package-lock.json
 package-lock.json
+
+# process.env
+process.env
+
+# .env
+.env

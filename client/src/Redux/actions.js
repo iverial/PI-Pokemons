@@ -3,7 +3,7 @@ import axios from "axios"
 
 export function getAllPokemons(){
   return function(dispatch){
-    axios.get('http://localhost:3001/pokemons')
+    axios.get('/pokemons')
     .then(response => response.data)
     .then(jsondata => dispatch({
       type: 'GET_ALL_POKEMONS',
@@ -17,7 +17,7 @@ export function getAllPokemons(){
 
 export function getAllTipos(){
   return function(dispatch){
-    axios.get('http://localhost:3001/types')
+    axios.get('/types')
     .then(response => response.data)
     .then(jsondata => dispatch({
       type: 'GET_TIPOS',
@@ -46,7 +46,7 @@ export function getNamePokemon(Nombre) {
 
 export function getPokemonId(id){
   return function (dispatch){
-    axios.get( `http://localhost:3001/pokemons/${id}`)
+    axios.get( `/pokemons/${id}`)
     .then(response => response.data)
     .then(jsonPokemonIDdata => dispatch({
       type: 'GET_DETAILS',
@@ -88,7 +88,7 @@ export function OrderByAtaque(payload){
 export function postPokemon(payload){
   return async function (dispatch){
     try {
-      const response = await axios.post('http://localhost:3001/pokemons', payload)
+      const response = await axios.post('/pokemons', payload)
        return response
     } catch (error) {
      return error 
@@ -104,7 +104,7 @@ export function resetDetail(){
 
 export function deletePoke(id){
   return function (dispatch){
-     axios.delete( `http://localhost:3001/pokemons/${id}`)
+     axios.delete( `/pokemons/${id}`)
      .then(response => console.log('Listo'))
   }
 }
