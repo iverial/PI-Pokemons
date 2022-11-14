@@ -12,7 +12,7 @@ export default function Landing(){
              <nav>
            <ul className={a.list} key={a.list}>
            <li className={a.listaordenada} key={a.listaordenada}>
-            <h1>Bienvenidos al mundo Pokemon!!</h1>
+            <h1>Bienvenidos al mundo Pokemon!</h1>
            <Link to={'/pokemons'} style={{ textDecoration: "inherit" }} key={a.Link}> 
              <button className={a.btn}>Empecemos con la aventura!</button>
            </Link>
