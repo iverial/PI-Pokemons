@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "concurrently \"react-scripts start\" \" node ./src/app.js",
-    "build": "CI=false react-scripts build"
+    "start": "npm start",
+    "test": "mocha -w ./tests/**/*.spec.js"
   },
   "author": "Henry",
   "license": "ISC",
