@@ -12,6 +12,9 @@ export function getAllPokemons(){
   }
 }
 
+export default pokemons()
+
+
 
 
 
