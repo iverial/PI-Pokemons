@@ -8,7 +8,7 @@ import Create from './Componentes/Create/Create';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" >
       <BrowserRouter>
         <Route path='/' exact component={Landing}/>
         <Route path='/pokemons' component={Home}/> 
